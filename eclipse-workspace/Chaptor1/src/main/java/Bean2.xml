@@ -5,4 +5,5 @@
      http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
      <!--  使用静态工厂类来实例化Bean-->
      <bean id="bean2" class="com.itheima.instance.static_factory.MyBean2Factory" factory-method="createBean2"/>
+     
      </beans>
